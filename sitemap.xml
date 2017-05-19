@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	
+	<url>
+		<loc>http://tucanoit.com</loc>
+		<priority>1.0</priority>
+		<image:image>
+			<image:loc>http://tucanoit.com/img/workstation.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://tucanoit.com/img/responsive-web-design.svg</image:loc>
+			<image:caption>Criação de sites</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://tucanoit.com/img/website-optimization.svg</image:loc>
+			<image:caption>Otimização de peformance</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://tucanoit.com/img/content-management.svg</image:loc>
+			<image:caption>Gestão de conteúdo</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://tucanoit.com/img/aldien-site.jpg</image:loc>
+			<image:caption>Aldien</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://tucanoit.com/img/peixaria-morumbi-site.jpg</image:loc>
+			<image:caption>Peixaria Santa Clara Morumbi</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://tucanoit.com/img/cervejaqui-site.jpg</image:loc>
+			<image:caption>CervejAqui</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://tucanoit.com/img/marco-peixaria.jpg</image:loc>
+			<image:caption>Marco Moraes</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://tucanoit.com/img/felipe-aldien.jpg</image:loc>
+			<image:caption>Felipe Diniz</image:caption>
+		</image:image>
+	</url>
+
+</urlset>
