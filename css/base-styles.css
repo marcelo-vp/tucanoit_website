@@ -863,115 +863,6 @@ footer {
 @media (min-width: 769px) {
 
 	/**SECTIONS**/
-	/*Services list image overlays, captions and animations*/
-	.overlay {
-	  display: none;
-	  position: absolute;
-	  top: 0;
-	  width: 100%;
-	  height: 100%;
-	  background-color: rgba(0,150,136,0.8); /*teal 500*/
-	  flex-direction: column;
-	  justify-content: center;
-	  text-align: center;
-	}
-	.overlay-caption {
-	  display: block;
-	  position: relative;
-	  line-height: 1.5;
-	  color: #FCFCFC;
-	  padding: 3px 0;
-	  width: auto;
-	  font-size: 1.5rem; /*21px*/
-	  text-transform: uppercase;
-	  text-align: center;
-	  margin: 0 auto;
-	}
-	.shade-right, .shade-left, .underline-right, .underline-left {
-		position: absolute;
-		bottom: 0;
-		display: block;
-		height: 2px;
-	}
-	.shade-right, .underline-right, .underline-left {
-		width: 50%;
-	}
-	.shade-left {
-		width: 0;
-	}
-	.shade-right {
-		background-color: rgba(0,150,136,0.6); /*teal 500*/
-	}
-	.shade-left {
-		background-color: rgba(0,150,136,1); /*teal 500*/
-	}
-	.underline-right, .underline-left {
-		background-color: #FCFCFC;
-	}
-	.shade-left, .undeline-left {
-		left: 0;
-	}
-	.shade-right, .underline-right {
-		left: 50%;
-	}
-	.services-list a {
-		position: relative;
-	}
-	.services-list a:hover .overlay {
-	  display: flex;
-	  animation: 0.5s ease-in-out forwards overlay_opacity;
-	  -webkit-animation: 0.5s ease-in-out forwards overlay_opacity;
-	  -moz-animation: 0.5s ease-in-out forwards overlay_opacity;
-	  -o-animation: 0.5s ease-in-out forwards overlay_opacity;
-	}
-	.services-list a:hover .underline-right {
-	  animation: 0.5s ease 0.1s fill_right;
-	  -webkit-animation: 0.5s ease 0.1s fill_right;
-	  -moz-animation: 0.5s ease 0.1s fill_right;
-	  -o-animation: 0.5s ease 0.1s fill_right;
-	}
-	.services-list a:hover .shade-left {
-	  animation: 0.5s ease 0.1s show_left;
-	  -webkit-animation: 0.5s ease 0.1s show_left;
-	  -moz-animation: 0.5s ease 0.1s show_left;
-	  -o-animation: 0.5s ease 0.1s show_left;
-	}
-	@keyframes overlay_opacity {
-	  from {opacity:0} to {opacity:1}
-	}
-	@-webkit-keyframes overlay_opacity {
-	  from {opacity:0} to {opacity:1}
-	}
-	@-moz-keyframes overlay_opacity {
-	  from {opacity:0} to {opacity:1}
-	}
-	@-o-keyframes overlay_opacity {
-	  from {opacity:0} to {opacity:1}
-	}
-	@keyframes fill_right {
-	  from {width:0%} to {width:50%}
-	}
-	@-webkit-keyframes fill_right {
-	  from {width:0%} to {width:50%}
-	}
-	@-moz-keyframes fill_right {
-	  from {width:0%} to {width:50%}
-	}
-	@-o-keyframes fill_right {
-	  from {width:0%} to {width:50%}
-	}	
-	@keyframes show_left {
-	  from {width:50%} to {width:0%}
-	}
-	@-webkit-keyframes show_left {
-	  from {width:50%} to {width:0%}
-	}
-	@-moz-keyframes show_left {
-	  from {width:50%} to {width:0%}
-	}
-	@-o-keyframes show_left {
-	  from {width:50%} to {width:0%}
-	}
 	/*Portfolio thumbs captions and animations*/
 	.thumb-caption {
 	  height: 100%;
@@ -1051,25 +942,6 @@ footer {
 	}
 	.client-right {
 		width: 60%;
-	}
-	.overlay-caption {
-		font-size: 1.3571rem; /*19px*/
-	}
-	@keyframes caption_padding {
-	  from {padding-left:0} to {padding-left:14px}
-	  from {padding-right:0} to {padding-right:14px}
-	}
-	@-webkit-keyframes caption_padding {
-	  from {padding-left:0} to {padding-left:14px}
-	  from {padding-right:0} to {padding-right:14px}
-	}
-	@-moz-keyframes caption_padding {
-	  from {padding-left:0} to {padding-left:14px}
-	  from {padding-right:0} to {padding-right:14px}
-	}
-	@-o-keyframes caption_padding {
-	  from {padding-left:0} to {padding-left:14px}
-	  from {padding-right:0} to {padding-right:14px}
 	}
 
 	/**COMMON STYLES**/
@@ -1246,27 +1118,6 @@ footer {
 	  height: 760px;
 	  padding-top: 380px;
 	  background-image: linear-gradient(to top, rgba(38,50,56,0.3), rgba(38,50,56,0.1)), url(../img/workstation.jpg);
-	}
-
-	/**SECTIONS**/
-	.overlay-caption {
-		font-size: 1.5rem; /*21px*/
-	}
-	@keyframes caption_padding {
-	  from {padding-left:0} to {padding-left:20px}
-	  from {padding-right:0} to {padding-right:20px}
-	}
-	@-webkit-keyframes caption_padding {
-	  from {padding-left:0} to {padding-left:20px}
-	  from {padding-right:0} to {padding-right:20px}
-	}
-	@-moz-keyframes caption_padding {
-	  from {padding-left:0} to {padding-left:20px}
-	  from {padding-right:0} to {padding-right:20px}
-	}
-	@-o-keyframes caption_padding {
-	  from {padding-left:0} to {padding-left:20px}
-	  from {padding-right:0} to {padding-right:20px}
 	}
 
 }
