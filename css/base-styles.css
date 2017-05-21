@@ -722,9 +722,6 @@ footer {
 	h2 {
 		font-size: 1.3571rem; /*19px*/
 	}
-	.text-link {
-		font-size: 1.1786rem; /*16.5px*/
-	}
 
 	/**HEADER**/
 	.header-background {
@@ -868,6 +865,12 @@ footer {
 	.services-list li {
 		padding: 22px 0 36px;
 	}
+	.services-list p {
+		font-size: 1.0714rem; /*15px*/
+	}
+	.text-link {
+		font-size: 1.1786rem; /*16.5px*/
+	}
 
 }
 
@@ -885,12 +888,6 @@ footer {
 	  padding-left: 10px;
 	  padding-right: 10px;
 	  line-height: 1.5;
-	}
-	.caption-links { /*insert caption links on thumbnails so the user can choose between link to website or project page*/
-		display: inline-block;
-		margin: 0 6px;
-		font-size: 0.9286rem; /*13px*/
-		text-transform: uppercase;
 	}
 	.portfolio-thumb .anchor-block:hover .thumb-caption {
 	  animation: 0.3s ease-in-out forwards thumb_cover;
@@ -945,9 +942,6 @@ footer {
 	}
 	.services-list div:nth-child(2) {
 		padding-left: 0;
-	}
-	.services-list p {
-		font-size: 1.0714rem; /*15px*/
 	}
 	#portfolio, #testimonials {
 	  padding-bottom: 65px;
