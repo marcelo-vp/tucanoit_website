@@ -3,9 +3,9 @@
 	// SETTINGS FOR HOMEPAGE
 
 		// head element
-		$pageTitle = "Tucano Tecnologia";
+		$pageTitle = "Tucano Tecnologia | Criação e otimização de sites";
 		$metaDescription = "Somos uma empresa especializada na criação de websites responsivos, otimização de performance e gestão de conteúdo.";
-		$metaKeywords = "websites,sites,criação de websites,criação de sites,programação de sites,web design,web development,design de sites,design de websites,site de e-commerce,criação de loja online,site para loja online,design de loja online";
+		$metaKeywords = "site,website,criar site,fazer site,fazer um site,criação de sites,desenvolvimento de sites,como criar um site,site responsivo,site barato,otimização de sites,layout site,web design,desenvolvedor web,agência de design,agência web,design de sites,e-commerce,ecomerce,site de e-commerce,como montar um e-commerce,criação de loja online,site para loja online,criar site de vendas";
 
 		// display specific content
 		$pageName = "home";
