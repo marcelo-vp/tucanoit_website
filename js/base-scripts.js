@@ -138,6 +138,7 @@ $(".portfolio-carousel").slick({
 		{
 			breakpoint:471,
 			settings: {
+				slidesToShow:1,
 				arrows:false
 			}
 		}
@@ -160,6 +161,7 @@ $(".testimonials-carousel").slick({
 		{
 			breakpoint:471,
 			settings: {
+				slidesToShow:1,
 				arrows:false
 			}
 		}
