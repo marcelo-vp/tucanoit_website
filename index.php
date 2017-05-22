@@ -28,7 +28,7 @@
 			</div>
 			<div>
 				<p>Construção de websites a partir de uma ideia ou tema de sua escolha. Este é ponto de partida para que seu projeto pessoal, portfólio profissional ou empresa tenha uma presença online.</p>
-				<p>Saiba mais sobre o serviço de <a class="text-link">Criação de sites</a>.</p>
+				<!--p>Saiba mais sobre o serviço de <a class="text-link">Criação de sites</a>.</p-->
 			</div>
 		</li>
 		<li>
@@ -38,7 +38,7 @@
 			</div>
 			<div>
 				<p>Alteração do código do site com o objetivo de reduzir o tempo de carregamento das páginas. Quanto mais rápida a navegação do usuário, maior a probabilidade de engajamento e conversão.</p>
-				<p>Conheça melhor o trabalho de <a class="text-link">Otimização de performance</a> das páginas de um site.</p>
+				<!--p>Conheça melhor o trabalho de <a class="text-link">Otimização de performance</a> das páginas de um site.</p-->
 			</div>
 		</li>
 		<li>
@@ -48,7 +48,7 @@
 			</div>
 			<div>
 				<p>Modificações no conteúdo e layout do site, para que esteja sempre atualizado com a realidade de seu negócio. Atualmente o website é a interface de relacionamento mais utilizada pelo consumidor.</p>
-				<p>Veja quais são os serviços de <a class="text-link">Gestão de conteúdo</a> que podemos te oferecer.</p>
+				<!--p>Veja quais são os serviços de <a class="text-link">Gestão de conteúdo</a> que podemos te oferecer.</p-->
 			</div>
 		</li>
 	</ul>
