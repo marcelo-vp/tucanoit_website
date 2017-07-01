@@ -6,12 +6,12 @@
 
 
 // Global variables
-var windowWidth = $(window).width();
-var windowHeight = $(window).height();
-var navSlideWidth;
-var $closeNavButton = $('<div id="close-nav"><svg class="icon"><use xlink:href="#close"/></svg></div>');
-var $openNavButton = $('<div id="open-nav"><div>menu</div><svg class="icon"><use xlink:href="#menu"/></svg></div>');
-var backToTopButton = document.getElementById("back-to-top");
+let windowWidth = $(window).width();
+let windowHeight = $(window).height();
+let navSlideWidth;
+const $closeNavButton = $('<div id="close-nav"><svg class="icon"><use xlink:href="#close"/></svg></div>');
+const $openNavButton = $('<div id="open-nav"><div>menu</div><svg class="icon"><use xlink:href="#menu"/></svg></div>');
+const backToTopButton = document.getElementById("back-to-top");
 
 
 // Inserting open-nav button in the DOM
@@ -23,13 +23,13 @@ $("#home-link").before($openNavButton);
 
 
 // Function to hide #main-nav and show body's scrollbar
-var hideMainNav = function(){
+const hideMainNav = () => {
 	$("#main-nav").hide();
 	$("body").css("overflow-y","scroll");
 }
 
 // Function to hide body's scrollbar
-var hideBodyScroll = function(){
+const hideBodyScroll = () => {
 	$("body").css("overflow","hidden");
 }
 
@@ -74,12 +74,12 @@ $($closeNavButton).click(function(){
 
 
 // Navigate to #services section from #to-services link on header
-var linkToServices = document.getElementById("to-services");
-var sectionsWrapper = document.getElementsByClassName("sections-wrapper")[0];
-var topbarHeight = document.getElementsByClassName("top-bar")[0].clientHeight;
+const linkToServices = document.getElementById("to-services");
+const sectionsWrapper = document.getElementsByClassName("sections-wrapper")[0];
+const topbarHeight = document.getElementsByClassName("top-bar")[0].clientHeight;
 
 linkToServices.onclick = function() {
-	var servicesPositionY = sectionsWrapper.offsetTop - topbarHeight;
+	const servicesPositionY = sectionsWrapper.offsetTop - topbarHeight;
 	$('html,body').animate({
 		scrollTop:servicesPositionY
 	},600);
@@ -91,7 +91,7 @@ linkToServices.onclick = function() {
 
 
 // Scroll page back to top with animate
-var scrollToTop = function(){
+const scrollToTop = () => {
 	$('html,body').animate({
 		scrollTop:0
 	},400);
@@ -102,7 +102,7 @@ backToTopButton.addEventListener("click",scrollToTop);
 
 // Check window scrollTop value on scroll event
 $(window).scroll(function(){
-	var scrollValue = $(this).scrollTop();
+	const scrollValue = $(this).scrollTop();
 	// if scroll is bigger than desired value, show the button
 	if (scrollValue>600) {
 		$(backToTopButton).css("display","inline-block");
