@@ -455,12 +455,13 @@ section h2 {
 
 .slick-dots {
 	position: relative;
-	bottom: 0;
-	margin: 12px 0 0;
+	top: 0;
+	margin-top: 16px;
 }
 
 .slick-dots li button:before, .slick-dots li.slick-active button:before {
-	color: #263238 /*blue-grey 900*/;
+	color: #263238; /*blue-grey 900*/
+	font-size: 12px;
 }
 
 .slick-dots li button:hover:before, .slick-dots li button:focus:before {
