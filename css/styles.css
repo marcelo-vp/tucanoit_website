@@ -126,8 +126,8 @@ section#services {
 .button-link {
 	text-transform: uppercase;
 	text-align: center;
-	border: 2px solid;
-	border-radius: 2px;
+	border: 3px solid;
+	border-radius: 3px;
 	transition: all 0.3s ease-in;
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
@@ -184,7 +184,7 @@ section#services {
 
 
 header {
-	color: #FCFCFC;
+	color: #FAFAFA;
 }
 
 /*Top bar*/
@@ -196,7 +196,6 @@ header {
 	z-index: 100;
 	text-align: right;
 	padding-top: 13px;
-	background-color: rgba(38,50,56,0.97); /*blue-grey 900*/
 }
 
 .top-bar-content.content-width {
@@ -218,7 +217,7 @@ header {
 /*Main background and captions*/
 
 .header-background {
-	background-image: linear-gradient(to top, rgba(38,50,56,0.5), rgba(38,50,56,0.1)), url(../img/workstation.jpg);
+	background-image: linear-gradient(rgba(38,50,56,0.8), rgba(38,50,56,0.3) 30%, rgba(38,50,56,0.65)), url(../img/workstation.jpg);
 	background-size: cover;
 	height: 455px;
 	padding-top: 220px;
@@ -231,22 +230,21 @@ header {
 }
 
 #headcap-button {
-	color: #FCFCFC;
-	background-color: #009688; /*teal 500*/
-	border-color: #009688; /*teal 500*/
+	background-color: transparent;
   box-shadow: 0px 0px 5px #212121; /*grey 900*/
 }
 
 .header-caption .button-link a {
   font-size: 1.2857rem; /*18px*/
   font-family: 'Roboto', sans-serif, helvetica;
-  font-weight: 500;
+	font-weight: 500;
+	text-shadow: -1.5px 1px 2px #212121;
 }
 
 #headcap-button:hover {
-	color: #009688; /*teal 500*/
-	background-color: #FCFCFC;
-	border-color: #FCFCFC;
+	color: #FAFAFA;
+	background-color: #009688; /*teal 500*/
+	border-color: #009688; /*teal 500*/
 }
 
 /*Nav menus*/
@@ -316,9 +314,25 @@ header {
 	-o-transition: all 0.3s ease-in;
 }
 
-.nav-link a:hover {
+.nav-link a::after {
+	content:'';
+	display: block;
+	width:0;
+	margin: 3px auto 0;
+	border-bottom: 1px solid #fafafa;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+/*.nav-link a:hover {
 	background-color: #FAFAFA;
-	color: #263238; /*blue-grey 900*/
+	color: #263238;
+}*/
+
+.nav-link a:hover::after {
+	width: 100%;
 }
 
 #main-nav {
@@ -1059,7 +1073,7 @@ footer {
 	.header-background {
 	  height: 620px;
 	  padding-top: 300px;
-	  background-image: linear-gradient(to top, rgba(38,50,56,0.4), rgba(38,50,56,0.1)), url(../img/workstation.jpg);
+	  background-image: linear-gradient(rgba(38,50,56,0.8), rgba(38,50,56,0.3) 20%, rgba(38,50,56,0.6) 80%, rgba(38,50,56,0.1)), url(../img/workstation.jpg);
 	}
 
 	/**SECTIONS**/
@@ -1133,7 +1147,7 @@ footer {
 	.header-background {
 	  height: 760px;
 	  padding-top: 380px;
-	  background-image: linear-gradient(to top, rgba(38,50,56,0.3), rgba(38,50,56,0.1)), url(../img/workstation.jpg);
+	  background-image: linear-gradient(rgba(38,50,56,0.8), rgba(38,50,56,0.3) 15%, rgba(38,50,56,0.6) 65%, rgba(38,50,56,0.1)), url(../img/workstation.jpg);
 	}
 
 }
