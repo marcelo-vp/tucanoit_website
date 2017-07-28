@@ -135,6 +135,7 @@
 		<!-- JS CALLS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="js/slick/slick.min.js"></script>
+		<script src="js/sticky/jquery.sticky.js"></script>
 		<script src="js/scripts.js"></script>
 		<!--script src="js/scripts.min.js"></script-->
 

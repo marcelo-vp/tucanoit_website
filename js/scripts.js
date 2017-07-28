@@ -4,10 +4,9 @@
 
 ******************************************************************************************/
 
-
 // Global variables
-let windowWidth = $(window).width();
-let windowHeight = $(window).height();
+let windowWidth = window.innerWidth;
+let windowHeight = window.innerHeight;
 let navSlideWidth;
 const $closeNavButton = $('<div id="close-nav"><svg class="icon"><use xlink:href="#close"/></svg></div>');
 const $openNavButton = $('<div id="open-nav"><div>menu</div><svg class="icon"><use xlink:href="#menu"/></svg></div>');
@@ -20,7 +19,6 @@ $("#home-link").before($openNavButton);
 
 
 /************************ TOGGLE SLIDING NAV FOR SMALL SCREENS **************************/
-
 
 // Function to hide #main-nav and show body's scrollbar
 const hideMainNav = () => {
@@ -72,23 +70,21 @@ $($closeNavButton).click(function(){
 
 /************************** NAVIGATION WITH SCROLLBAR ADJUSTMENT **************************/
 
-
 // Navigate to #services section from #to-services link on header
 const linkToServices = document.getElementById("to-services");
 const sectionsWrapper = document.getElementsByClassName("sections-wrapper")[0];
 const topbarHeight = document.getElementsByClassName("top-bar")[0].clientHeight;
 
-linkToServices.onclick = function() {
+linkToServices.addEventListener('click', () => {
 	const servicesPositionY = sectionsWrapper.offsetTop - topbarHeight;
 	$('html,body').animate({
 		scrollTop:servicesPositionY
 	},600);
-}
+});
 
 
 
 /*********************************** SCROLL BACK TO TOP ***********************************/
-
 
 // Scroll page back to top with animate
 const scrollToTop = () => {
@@ -145,7 +141,6 @@ $(".portfolio-carousel").slick({
 	]
 });
 
-
 // Testimonials
 $(".testimonials-carousel").slick({
 	adaptiveHeight:true,
@@ -166,4 +161,41 @@ $(".testimonials-carousel").slick({
 			}
 		}
 	]
+});
+
+
+
+/***************************** STICKS HEADER TO TOP ON PAGE SCROLL *****************************/
+
+// Sticks top-bar on scroll
+$('.top-bar').sticky({
+	responsiveWidth: true,
+	zIndex: 1000
+});
+
+// Behaviour when top-bar sticks and unsticks
+$('.top-bar').on('sticky-start', function () {
+	// Gets window inner width when top bar sticks
+	const windowWidth = window.innerWidth;
+	$(this).css({
+		'background-color':'rgba(38,50,56,0.95)', /*blue-grey 900*/
+		'width':'100%'
+	});
+	if (windowWidth > 600) {
+		$(this).css({
+			'padding-top':'8px',
+			'padding-bottom':'5px'
+		});
+		$('#home-link').css({
+			'position':'relative',
+			'top':'2px'
+		});
+	}
+}).on('sticky-end', function (){
+	$(this).css({
+		'background-color':'transparent',
+		'padding-top':'13px',
+		'padding-bottom':'0'
+	});
+	$('#home-link').css('top','0');
 });
