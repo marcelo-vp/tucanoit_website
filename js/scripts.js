@@ -170,7 +170,7 @@ $(".testimonials-carousel").slick({
 // Sticks top-bar on scroll
 $('.top-bar').sticky({
 	responsiveWidth: true,
-	zIndex: 1000
+	zIndex: 100
 });
 
 // Behaviour when top-bar sticks and unsticks
