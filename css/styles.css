@@ -493,8 +493,31 @@ section h2 {
 	padding: 0 10px;
 }
 
-.portfolio-thumb .anchor-block, .testimonial-bubble {
+.portfolio-thumb .thumb-wrapper, .testimonial-bubble {
 	position: relative;
+}
+
+.portfolio-thumb .thumb-wrapper, .thumb-wrapper .site-link, .thumb-wrapper .link-icon, .thumb-wrapper .link-text {
+	display: inline-block;
+}
+
+.thumb-wrapper .site-link {
+	width: 48%;
+}
+
+.thumb-wrapper .link-text, .thumb-wrapper .link-icon {
+	position: relative;
+}
+
+.thumb-wrapper .link-text {
+	bottom: 3px;
+}
+
+.thumb-wrapper .link-icon {
+	margin-right: 2px;
+	width: 22px;
+	height: 22px;
+	top: 3px;
 }
 
 #portfolio h2 {
@@ -912,7 +935,7 @@ footer {
 		line-height: 1.5;
 		opacity: 0.0;
 	}
-	.portfolio-thumb .anchor-block:hover .thumb-caption {
+	.portfolio-thumb .thumb-wrapper:hover .thumb-caption {
 	  animation: 0.5s ease-in-out forwards thumb_cover;
 	  -webkit-animation: 0.5s ease-in-out forwards thumb_cover;
 	  -moz-animation: 0.5s ease-in-out forwards thumb_cover;

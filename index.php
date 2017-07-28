@@ -62,22 +62,58 @@
 	<!-- Portfolio carousel -->
 	<div class="portfolio-carousel">
 		<div class="portfolio-thumb">
-			<a class="anchor-block" href="http://www.aldien.com.br" target="_blank">
+			<div class="thumb-wrapper">
 				<img src="img/aldien-site.jpg" alt="Captura de tela do site da Aldien" />
-				<div class="thumb-caption">Aldien</div>
-			</a>
+				<div class="thumb-caption">
+					<div>Aldien</div>
+					<div class="link-wrapper">
+						<a class="site-link" href="http://www.aldien.com.br" target="_blank">
+							<img src="img/icons/white-globe.svg" class="link-icon" />
+							<span class="link-text">site</span>
+						</a>
+						<a class="site-link">
+							<img src="img/icons/white-magnifier.svg" class="link-icon" />
+							<span class="link-text">+ info</span>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="portfolio-thumb">
-			<a class="anchor-block" href="http://www.peixariasantaclaramorumbi.com.br" target="_blank">
+			<div class="thumb-wrapper">
 				<img src="img/peixaria-morumbi-site.jpg" alt="Captura de tela do site da Peixaria Santa Clara Morumbi" />
-				<div class="thumb-caption">Peixaria Santa Clara Morumbi</div>
-			</a>
+				<div class="thumb-caption">
+					<div>Peixaria Santa Clara Morumbi</div>
+					<div class="link-wrapper">
+						<a class="site-link" href="http://www.peixariasantaclaramorumbi.com.br" target="_blank">
+							<img src="img/icons/white-globe.svg" class="link-icon" />
+							<span class="link-text">site</span>
+						</a>
+						<a class="site-link">
+							<img src="img/icons/white-magnifier.svg" class="link-icon" />
+							<span class="link-text">+ info</span>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="portfolio-thumb">
-			<a class="anchor-block" href="http://www.cervejaqui.com.br" target="_blank">
+			<div class="thumb-wrapper">
 				<img src="img/cervejaqui-site.jpg" alt="Captura de tela do site da CervejAqui" />
-				<div class="thumb-caption">CervejAqui</div>
-			</a>
+				<div class="thumb-caption">
+					<div>CervejAqui</div>
+					<div class="link-wrapper">
+						<a class="site-link" href="http://www.cervejaqui.com.br" target="_blank">
+							<img src="img/icons/white-globe.svg" class="link-icon" />
+							<span class="link-text">site</span>
+						</a>
+						<a class="site-link">
+							<img src="img/icons/white-magnifier.svg" class="link-icon" />
+							<span class="link-text">+ info</span>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
