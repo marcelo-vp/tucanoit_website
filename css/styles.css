@@ -901,37 +901,38 @@ footer {
 	/**SECTIONS**/
 	/*Portfolio thumbs captions and animations*/
 	.thumb-caption {
+	  top: 0;
 	  height: 100%;
-	  top: 100%;
 	  display: flex;
 	  flex-direction: column;
 	  justify-content: space-around;
 	  font-size: 1.0714rem; /*15px*/
 	  padding-left: 10px;
 	  padding-right: 10px;
-	  line-height: 1.5;
+		line-height: 1.5;
+		opacity: 0.0;
 	}
 	.portfolio-thumb .anchor-block:hover .thumb-caption {
-	  animation: 0.3s ease-in-out forwards thumb_cover;
-	  -webkit-animation: 0.3s ease-in-out forwards thumb_cover;
-	  -moz-animation: 0.3s ease-in-out forwards thumb_cover;
-	  -o-animation: 0.3s ease-in-out forwards thumb_cover;
+	  animation: 0.5s ease-in-out forwards thumb_cover;
+	  -webkit-animation: 0.5s ease-in-out forwards thumb_cover;
+	  -moz-animation: 0.5s ease-in-out forwards thumb_cover;
+	  -o-animation: 0.5s ease-in-out forwards thumb_cover;
 	}
 	@keyframes thumb_cover {
-	  from {top:100%} to {top:0%}
+	  from {opacity:0.0} to {opacity:1.0}
 	}
 	@-webkit-keyframes thumb_cover {
-	  from {top:100%} to {top:0%}
+	  from {opacity:0.0} to {opacity:1.0}
 	}
 	@-moz-keyframes thumb_cover {
-	  from {top:100%} to {top:0%}
+	  from {opacity:0.0} to {opacity:1.0}
 	}
 	@-o-keyframes thumb_cover {
-	  from {top:100%} to {top:0%}
+	  from {opacity:0.0} to {opacity:1.0}
 	}
-	.portfolio-thumb {
+	/*.portfolio-thumb {
 		margin-bottom: -0.5%;
-	}
+	}*/
 
 }
 

@@ -62,19 +62,19 @@
 	<!-- Portfolio carousel -->
 	<div class="portfolio-carousel">
 		<div class="portfolio-thumb">
-			<a class="anchor-block" href="http://www.aldien.com.br" target="_blank" title="Ir para o site">
+			<a class="anchor-block" href="http://www.aldien.com.br" target="_blank">
 				<img src="img/aldien-site.jpg" alt="Captura de tela do site da Aldien" />
 				<div class="thumb-caption">Aldien</div>
 			</a>
 		</div>
 		<div class="portfolio-thumb">
-			<a class="anchor-block" href="http://www.peixariasantaclaramorumbi.com.br" target="_blank" title="Ir para o site">
+			<a class="anchor-block" href="http://www.peixariasantaclaramorumbi.com.br" target="_blank">
 				<img src="img/peixaria-morumbi-site.jpg" alt="Captura de tela do site da Peixaria Santa Clara Morumbi" />
 				<div class="thumb-caption">Peixaria Santa Clara Morumbi</div>
 			</a>
 		</div>
 		<div class="portfolio-thumb">
-			<a class="anchor-block" href="http://www.cervejaqui.com.br" target="_blank" title="Ir para o site">
+			<a class="anchor-block" href="http://www.cervejaqui.com.br" target="_blank">
 				<img src="img/cervejaqui-site.jpg" alt="Captura de tela do site da CervejAqui" />
 				<div class="thumb-caption">CervejAqui</div>
 			</a>
