@@ -178,7 +178,7 @@ $('.top-bar').on('sticky-start', function () {
 	// Gets window inner width when top bar sticks
 	const windowWidth = window.innerWidth;
 	$(this).css({
-		'background-color':'rgba(38,50,56,0.95)', /*blue-grey 900*/
+		'background-color':'rgba(0,105,92,0.95)', /*teal 800*/
 		'width':'100%'
 	});
 	if (windowWidth > 600) {
