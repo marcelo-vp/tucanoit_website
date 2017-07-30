@@ -713,9 +713,9 @@ footer {
 	display: none;
 	width: 58px;
 	height: 40px;
-	background-color: #FAFAFA;
+	background-color: #26A69A; /* teal 400 */
 	border-radius: 2px;
-	opacity: 0.5;
+	opacity: 0.6;
 	transition: opacity 0.3s ease-in;
 	-webkit-transition: opacity 0.3s ease-in;
 	-moz-transition: opacity 0.3s ease-in;
@@ -1036,7 +1036,7 @@ footer {
 
 	/**FOOTER**/
 	#back-to-top {
-		border: 1px solid #37474F; /*blue-grey 800*/
+		border: 1px solid #FAFAFA;
 	}
 
 }
