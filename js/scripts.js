@@ -199,3 +199,39 @@ $('.top-bar').on('sticky-start', function () {
 	});
 	$('#home-link').css('top','0');
 });
+
+
+
+/********************* CHANGES FOOTER'S ICON AND TEXT COLORS ON MOUSE HOVER *********************/
+
+// Selects all uls inside the footer element with the contact-info class
+const allContactUls = document.querySelector('footer').getElementsByClassName('contact-info');
+// For every contact ul, checks the anchor href attribute value
+for (let i=0; i<allContactUls.length; i++) {
+	let contactUl = allContactUls[i];
+	// Selects the anchor element
+	let anchorElement = contactUl.querySelector('a');
+	// Selects the use element
+	let useElement = contactUl.querySelector('use');
+	// Gets the xlink:href attribute value
+	let iconId = useElement.getAttribute('xlink:href');
+	// Searches the icon path inside the document
+	let iconPath = document.querySelector(iconId).querySelector('path');
+	// If anchor has an href attribute, then adds the event listeners
+	if (anchorElement.getAttribute('href') !== null) {
+		// Event listener on mouseenter
+		anchorElement.addEventListener('mouseenter', (e) => {
+			// Changes anchor text color to teal 400
+			anchorElement.style.color = '#26a69a';
+			// Changes the path fill attribute value to teal 400
+			iconPath.setAttribute('fill','#26a69a');
+		});
+		// Event listener on mouseleave
+		anchorElement.addEventListener('mouseleave', (e) => {
+			// Changes anchor text color to blue-grey 50
+			anchorElement.style.color = '#eceff1';
+			// Changes the path fill attribute value to blue-grey 50
+			iconPath.setAttribute('fill','#eceff1');
+		});
+	}
+}
