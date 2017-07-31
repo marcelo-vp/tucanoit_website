@@ -352,6 +352,11 @@ header {
 	padding-bottom: 9px;
 }
 
+.nav-li {
+  width: 60%;
+  margin: 0 auto;
+}
+
 #main-nav li.last {
 	padding-bottom: 18px;
 }
@@ -367,9 +372,9 @@ header {
 #main-nav a {
 	display: block;
 	font-size: 1.0714rem; /*15px*/
-	color: #263238; /*blue-grey 900*/
+	color: #00695c; /*teal 800*/
 	padding: 16px 0 14px;
-	border-bottom: 1px solid #263238; /*blue-grey 900*/
+	border-bottom: 1px solid #00695c; /*teal 800*/
 	text-align: center;
 	text-transform: uppercase;
 }
