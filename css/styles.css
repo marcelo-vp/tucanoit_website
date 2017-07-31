@@ -676,16 +676,16 @@ footer {
 	display: none;
 	width: 58px;
 	height: 40px;
-	background-color: #26A69A; /* teal 400 */
+	background-color: #4DB6AC; /* teal 300 */
 	border-radius: 2px;
-	opacity: 0.6;
+	opacity: 0.75;
 	transition: opacity 0.3s ease-in;
 	-webkit-transition: opacity 0.3s ease-in;
 	-moz-transition: opacity 0.3s ease-in;
 	-o-transition: opacity 0.3s ease-in;
 }
 #back-to-top:hover {
-	opacity: 0.9;
+	opacity: 1.0;
 	cursor: pointer;
 }
 #back-to-top svg {
@@ -993,11 +993,6 @@ footer {
 	.header-background {
 	  height: 520px;
 	  padding-top: 250px;
-	}
-
-	/**FOOTER**/
-	#back-to-top {
-		border: 1px solid #FAFAFA;
 	}
 
 }
