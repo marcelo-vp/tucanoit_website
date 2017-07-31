@@ -930,6 +930,11 @@ footer {
 	.text-link {
 		font-size: 1.1786rem; /*16.5px*/
 	}
+	/*Portfolio thumbs*/
+	.thumb-wrapper .thumb-title {
+		font-size: 1rem;
+		height: 32px;
+	}
 
 }
 
@@ -943,7 +948,7 @@ footer {
 	  display: flex;
 	  flex-direction: column;
 	  justify-content: space-around;
-	  font-size: 1.0714rem; /*15px*/
+	  font-size: 1rem; /*14px*/
 	  padding-left: 10px;
 	  padding-right: 10px;
 		line-height: 1.5;
@@ -1034,6 +1039,14 @@ footer {
 	  padding-top: 250px;
 	}
 
+}
+
+@media (min-width:880px) {
+	/**SECTIONS**/
+	/*Portfolio thumbs*/
+	.thumb-caption {
+		font-size: 1.0714rem; /* 15px */
+	}
 }
 
 @media (min-width: 1000px) {
