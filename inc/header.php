@@ -15,11 +15,11 @@
 
 		<!-- CSS LINKS -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
-		<link rel="stylesheet" href="css/normalize.css">
+		<!-- <link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="js/slick/slick.css">
 		<link rel="stylesheet" href="js/slick/slick-theme.css">
-		<link rel="stylesheet" href="css/styles.css">
-		<!--link rel="stylesheet" type="text/css" href="css/styles.min.css"-->
+		<link rel="stylesheet" href="css/styles.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/styles.min.css">
 
 	</head>
 
