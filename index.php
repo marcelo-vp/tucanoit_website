@@ -11,7 +11,8 @@
 		$pageName = "home";
 
 	// Include DOCTYPE, opening HTML tag, HEAD element, opening BODY and MAIN-WRAPPER tags, HEADER element, opening SECTIONS-WRAPPER tag
-	include("inc/header.php");
+	// include("inc/header.php");
+	include("inc/header.min.php");
 
 ?>
 
@@ -299,5 +300,6 @@
 
 <!-- Include closing SECTIONS-WRAPPER and MAIN-WRAPPER tags, FOOTER element, JS CALLS, closing BODY and HTML tags -->
 <?php
-	include("inc/footer.php");
+	// include("inc/footer.php");
+	include("inc/footer.min.php");
 ?>
